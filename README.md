@@ -1,1 +1,0 @@
-# seattleviewniversity.github.io
