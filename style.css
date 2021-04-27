@@ -10,30 +10,41 @@ html {
 }
 
 input {
-    font-size: 2rem;
     border-width: 0px;
-    padding: 0.4rem;
-    border-radius: 0.8rem;
 }
 
 .grey-box {
     border-radius: 1rem;
-    background-color: #dbdbdb;
+    background-color: #e6e6e6;
     padding: 1rem;
     margin-top: 2rem;
 }
 
 button {
     font-size: 1rem;
-	background-color:#aaa;
+	background-color:#bbb;
 	border-radius:12px;
 	border:0px;
 	cursor:pointer;
 	color:#ffffff;
 	padding: 0.4rem;
+    margin: 0.1rem;
 }
+
 button:hover {
 	background-color:#bbb;
+}
+
+#searchBar > * {
+    font-size: 1.6rem;
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+}
+.hstack {
+    overflow-y: hidden;
+}
+.hstack > * {
+    float: left;
 }
 @media (max-width: 900px) {
     #main {
